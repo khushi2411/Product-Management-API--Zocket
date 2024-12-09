@@ -91,16 +91,8 @@ json
     "product_images": ["image1.jpg", "image2.jpg"],
     "product_price": 499.99
 }
-Response:
-json
-{
-    "id": 1,
-    "user_id": 1,
-    "product_name": "Camera",
-    "product_description": "High-quality camera",
-    "product_images": ["image1.jpg", "image2.jpg"],
-    "product_price": 499.99
-}
+
+
 Get All Products
 GET /get-products?page=1&limit=10
 Response:
@@ -117,17 +109,8 @@ json
 ]
 Get Product by ID
 GET /products/:id
-Response:
-json
-{
-    "id": 1,
-    "user_id": 1,
-    "product_name": "Camera",
-    "product_description": "High-quality camera",
-    "product_images": ["image1.jpg", "image2.jpg"],
-    "product_price": 499.99
-}
-Update a Product
+
+
 PUT /update-product/:id
 Request Body (JSON):
 json
