@@ -144,3 +144,4 @@ Authentication:
 Add user authentication and role-based authorization.
 Testing:
 Add unit and integration tests for all endpoints.
+
