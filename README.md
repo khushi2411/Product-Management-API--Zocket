@@ -82,52 +82,22 @@ API Endpoints
 Product Endpoints
 Create a Product
 POST /create-product
-Request Body (JSON):
-json
-{
-    "user_id": 1,
-    "product_name": "Camera",
-    "product_description": "High-quality camera",
-    "product_images": ["image1.jpg", "image2.jpg"],
-    "product_price": 499.99
-}
 
 
 Get All Products
 GET /get-products?page=1&limit=10
-Response:
-json
-[
-    {
-        "id": 1,
-        "user_id": 1,
-        "product_name": "Camera",
-        "product_description": "High-quality camera",
-        "product_images": ["image1.jpg", "image2.jpg"],
-        "product_price": 499.99
-    }
-]
+
 Get Product by ID
 GET /products/:id
 
 
 PUT /update-product/:id
-Request Body (JSON):
-json
-{
-    "user_id": 1,
-    "product_name": "Updated Camera",
-    "product_description": "Updated high-quality camera",
-    "product_images": ["image1.jpg"],
-    "product_price": 599.99
-}
-Response:
+
 Product Updated successfully
 
 Delete a Product
 DELETE /delete-product/:id
-Response:
-Product deleted successfully
+
 
 Testing
 Use Postman to test the endpoints:
