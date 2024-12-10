@@ -1,4 +1,4 @@
-Product Management API
+
 Overview
 This is a Product Management API built with Go (Golang). The API allows you to create, retrieve, update, and delete product details. It supports asynchronous image processing, caching with Redis, and uses PostgreSQL as the database.
 
